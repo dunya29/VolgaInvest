@@ -163,6 +163,10 @@
     height: 40px;
     fill: #159947;
 }
+.house__links {
+    flex-wrap: wrap;
+    gap: 0 20px;
+}
 @media (max-width: 1700px) {
     .swiper-btn--prev {
         left: -40px;
