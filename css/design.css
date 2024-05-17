@@ -328,19 +328,6 @@
         font-size: 16px;
         min-height: 32px;
     }
-    .flat-tabs {
-        display: flex;
-        margin-bottom: 32px;
-    }
-    .flat-hat__filter-items, .flat-hat__filter-clear{
-        display: none;
-    }
-    .flat-hat__filter-btn {
-        color: #159947;
-    }
-    .flat-hat__filter-btn svg {
-        stroke: #159947;
-    }
 }
 @media (max-width: 480px) {
     .design__items {
