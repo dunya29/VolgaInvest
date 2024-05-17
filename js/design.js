@@ -7,8 +7,8 @@ if (swiper3) {
             observer: true,
             observeParents: true,
             navigation: {
-              nextEl: item.querySelector('.swiper-btn--prev'),
-              prevEl: item.querySelector('.swiper-btn--next'),
+              nextEl: item.querySelector('.swiper-btn--next'),
+              prevEl: item.querySelector('.swiper-btn--prev'),
             },
             spaceBetween: 8,
             simulateTouch: true,
@@ -31,3 +31,10 @@ if (swiper3) {
           });
     })
 }
+const fancybox = Fancybox.bind('[data-fancybox]', {
+    Hash: false,
+    Toolbar: {
+      display: ["close"]
+    },
+    Thumbs: false,
+});
